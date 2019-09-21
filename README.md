@@ -24,6 +24,8 @@ JSON (JavaScript Object Notation) adalah format data yang digunakan REST API unt
 ![join](https://github.com/Derida23/B12K4-A-Arkademy/blob/master/6/6A.jpg)
 
 * 6B. Membuat Tampilan Website Sesuai Mockup - Data Statik
+Menggunakan HTML, CSS, Bootstrap 4, Jquery, Icon Material-UI
+
 ![join](https://github.com/Derida23/B12K4-A-Arkademy/blob/master/6/6B/6B-Index.jpg)
 ![join](https://github.com/Derida23/B12K4-A-Arkademy/blob/master/6/6B/6B-Add.jpg)
 ![join](https://github.com/Derida23/B12K4-A-Arkademy/blob/master/6/6B/6B-Delete.jpg)

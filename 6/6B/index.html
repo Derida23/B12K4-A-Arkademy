@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <title>Arkademy Bootcamp</title>
+  </head>
+  <body>
+  	<!-- NAVIBAR -->
+  	<nav class="navbar navbar-light shadow-sm" style="background-color: #FFFFFF;">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <img height="25%" width="30%" src="arka.png">
+	      </a>
+	    </div>
+	    <button  class="btn btn-warning btn-md text-white" type="submit" data-toggle="modal" data-target="#myModal">ADD</button>
+	  </div>
+	</nav>
+	<!-- NAVIBAR END -->
+
+
+	<!-- TABEL -->
+
+	<table class="table table-bordered">
+	  <thead>
+	    <tr align="center">
+	      <th scope="col">Name</th>
+	      <th scope="col">Work</th>
+	      <th scope="col">Salary</th>
+	      <th scope="col">Action</th>
+	    </tr>
+	  </thead>
+	  <tbody align="center">
+	    <tr>
+	      <td>Bintang</td>
+	      <td>Backend Dev</td>
+	      <td>Rp. 12.000.000</td>
+	      <td> <input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal2" src="del.svg"> 
+	      		<input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal3" src="ed.svg"></td>
+	    </tr>
+	    <tr>
+	      <td>Tasya</td>
+	      <td>Backend Dev</td>
+	      <td>Rp.12.000.000</td>
+	      <td> <input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal2" src="del.svg"> 
+	      		<input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal3" src="ed.svg"></td>
+	    </tr>
+	    <tr>
+	      <td>Poetra</td>
+	      <td>Backend Dev</td>
+	      <td>Rp.12.000.000</td>
+	      <td> <input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal2" src="del.svg"> 
+	      		<input type="image" name="imgbtn" data-toggle="modal" data-target="#myModal3" src="ed.svg"></td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<!-- TABEL END -->
+
+	<!-- MODAL -->
+		  <div class="modal" id="myModal">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		      
+		        <!-- Modal Header -->
+		        <div class="modal-header">
+		          <h4 class="modal-title">ADD DATA</h4>
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        </div>
+		        
+		        <!-- Modal body -->
+		        <div class="modal-body">
+		          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name..."><br>
+		          <select class="form-control">
+					  <option>Work</option>
+				  </select><br>
+		          <select class="form-control">
+					  <option>Salary</option>
+				  </select>
+		        </div>
+		        
+		        <!-- Modal footer -->
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-warning text-white" data-dismiss="modal">ADD</button>
+		        </div>
+		        
+		      </div>
+		    </div>
+		  </div>
+	<!-- MODAL END -->
+
+		<!-- MODAL -->
+		  <div class="modal" id="myModal3">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		      
+		        <!-- Modal Header -->
+		        <div class="modal-header">
+		          <h4 class="modal-title">EDIT DATA</h4>
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        </div>
+		        
+		        <!-- Modal body -->
+		        <div class="modal-body">
+		          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Bintang"><br>
+		          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Frontend Dev"><br>
+		          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="10.000.000"><br>
+		          
+		        </div>
+		        
+		        <!-- Modal footer -->
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-warning text-white" data-dismiss="modal">EDIT</button>
+		        </div>
+		        
+		      </div>
+		    </div>
+		  </div>
+	<!-- MODAL END -->
+<style type="text/css">
+	.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	}
+</style>
+
+	<!-- MODAL -->
+		  <div class="modal" id="myModal2">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		        
+		        <!-- Modal body -->
+		        <div class="modal-body">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button><br><br>
+		          <img class="center" width="25%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/240px-Yes_Check_Circle.svg.png"><br>
+		        <p align="center"> <b>Data Bintang telah berhasil dihapus</b></p>
+
+		      </div>
+		    </div>
+		  </div>
+	<!-- MODAL END -->
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

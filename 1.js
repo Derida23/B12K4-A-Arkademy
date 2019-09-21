@@ -73,9 +73,7 @@ function biodata() {
       },
     ],
     "interest_in_coding": true
-      	
-    
-    }
+  }
 }
 
 let getBiodata = biodata();

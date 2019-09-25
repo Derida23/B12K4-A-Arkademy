@@ -28,7 +28,7 @@ function biodata() {
       },
       
       {
-        "name" : "SDN Cipinang 03 Jakarta",
+        "name" : "SDN ISA 05",
         "year_in" : 2002,
         "year_out" : 2008,
         "major" : "null"
